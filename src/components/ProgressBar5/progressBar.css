@@ -1,0 +1,9 @@
+.progress,
+.progress-bar {
+  height: 20px;
+  display: show;
+  background-color: grey;
+}
+.progress-bar {
+  background-color: black;
+}

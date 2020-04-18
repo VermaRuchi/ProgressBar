@@ -9,6 +9,9 @@ import ProgressBar1 from '../src/components/ProgressBar1'
 import ProgressBar2 from '../src/components/ProgressBar2'
 import ProgressBar3 from '../src/components/ProgressBar3'
 import ProgressBar4 from '../src/components/UserCard/UserCard'
+import ProgressBar5 from '../src/components/ProgressBar5'
+import ProgressBar6 from './components/ProgressBar6/ProgressBar6'
+
 
 const useStyles = makeStyles((theme) => ({
   title: {
@@ -40,6 +43,13 @@ function App() {
                       {/* <Typography variant="body1" className={classes.title}>
                       <Link to="/ProgressBar4" className={classes.link}>Progress Bar4</Link>
                       </Typography> */}
+                       {/* <Typography variant="body1" className={classes.title}>
+                      <Link to="/ProgressBar5" className={classes.link}>Progress Bar5</Link>
+                      </Typography> */}
+                      <Typography variant="body1" className={classes.title}>
+                      <Link to="/ProgressBar6" className={classes.link}>Progress Bar6</Link>
+                      </Typography>
+
                   </Toolbar>
               </AppBar>
               <Switch>
@@ -55,6 +65,12 @@ function App() {
                   {/* <Route path="/ProgressBar4">
                       <ProgressBar4 />
                   </Route> */}
+                  {/* <Route path="/ProgressBar5">
+                      <ProgressBar5 />
+                  </Route> */}
+                  <Route path="/ProgressBar6">
+                    <ProgressBar6/>
+                  </Route>
                 </Switch>
       </Router>
     </div>
